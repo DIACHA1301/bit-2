@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const searchInput = document.getElementById("search");
 
   // Carga el JSON local
-  const response = await fetch('/file.json');
+  const response = await fetch('./file.json');
   const data = await response.json();
 
   // Renderiza estudiantes
